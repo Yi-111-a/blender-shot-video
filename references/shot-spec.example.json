@@ -1,0 +1,21 @@
+{
+  "style": "film noir, rainy night, cold blue × warm amber, volumetric light, ultra-real cinematic, film grain",
+  "firstFramePrompt": "黑色电影noir公寓客厅，雨夜，中景，侦探卡其风衣软呢帽侧身站立，左墙整面到顶木质书架，尽头整面落地大窗（窗外左蓝CLUB右红DINER霓虹、雨水玻璃），右侧棕色皮沙发与暖黄台灯，深色湿润木地板，冷蓝×暖琥珀强对比，体积光，浅景深，超写实电影CG，胶片颗粒。负向：文字水印,logo,卡通,低清晰度,过曝,塑料感",
+  "videoPrompt": "镜头从门口缓慢推进推向尽头霓虹大窗，侦探静立凝视窗外，雨水沿玻璃流下，霓虹在雨幕中轻微闪烁，暖黄台灯辉光，空气浮尘，体积光，沉稳克制的运镜。负向：文字水印,卡通,镜头剧烈抖动,肢体扭曲,多余人物",
+  "room": { "width": 5, "depth": 5, "height": 3 },
+  "objects": [
+    { "name": "sofa",       "size": [0.85, 1.75, 0.85], "position": [2.05, 1.60, 0.425] },
+    { "name": "side_table", "size": [0.45, 0.45, 0.52], "position": [2.00, 0.62, 0.26] },
+    { "name": "table_lamp", "size": [0.26, 0.26, 0.50], "position": [2.00, 0.62, 0.77] },
+    { "name": "detective",  "size": [0.45, 0.30, 1.80], "position": [0.00, 2.50, 0.90] }
+  ],
+  "camera": {
+    "move": "push_in",
+    "start": [-1.4, 0.6, 1.6],
+    "end":   [-0.2, 2.6, 1.45],
+    "lookAt": [0.4, 4.6, 1.2],
+    "lensMm": 28,
+    "durationSec": 8,
+    "fps": 24
+  }
+}
